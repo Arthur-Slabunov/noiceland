@@ -1,0 +1,157 @@
+.container {
+    padding: 30px 0 30px 0;
+}
+
+.navbar-nav {
+    gap: 40px;
+}
+
+.nav-link {
+    color: #000;
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navbar-brand {
+    width: 136px;
+    height: 30px;
+}
+
+.create-line {
+    width: 100%;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.description {
+    padding-left: 50px;
+}
+
+.description-image {
+    color: #999;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.description-main {
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    width: 429px;
+}
+
+.description-light {
+    color: #666;
+    font-family: Instrument Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 419px;
+}
+
+.description-by {
+    color: #000;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.card-section {
+    display: grid;
+    padding-top: 60px;
+    grid-template-areas: "a1 a2 a3" "a4 a5 a6";
+}
+
+.card {
+    border: none;
+    width: 387px;
+
+}
+
+
+.card:nth-of-type(1) {
+    grid-area: a1;
+}
+
+.card:nth-of-type(2) {
+    grid-area: a2;
+}
+
+.card:nth-of-type(3) {
+    grid-area: a3;
+}
+
+.card:nth-of-type(4) {
+    grid-area: a4;
+}
+
+.card:nth-of-type(5) {
+    grid-area: a5;
+}
+
+.card:nth-of-type(6) {
+    grid-area: a6;
+}
+
+.card-desc-about {
+    padding-top: 24px;
+    width: 93px;
+    color: #999;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    width: 383px;
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+    text-transform: uppercase;
+}
+
+.card-by {
+    width: 128px;
+    color: #000;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
